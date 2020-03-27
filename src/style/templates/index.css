@@ -1,19 +1,27 @@
 @import "../pages/index-grind.css";
 
-@import "../organisms/index/header.css";
-@import "../organisms/index/main.css";
-@import "../organisms/index/footer.css";
+@import "../organisms/header.css";
+@import "../organisms/main.css";
+@import "../organisms/footer.css";
 
-@import "../molecules/index/index-login.css";
-@import "../molecules/index/index-formulario-login.css";
+@import "../molecules/index-login.css";
+@import "../molecules/index-formulario-login.css";
 
-@import "../atoms/index/index-subtitulo-footer.css";
+@import "../atoms/index-subtitulo-footer.css";
 
-@import "../organisms/index/plano-de-fundo.css";
+@import "../organisms/plano-de-fundo.css";
 
-@import "../atoms/index/botao-login-formulario.css";
-@import "../atoms/index/img-login-formulario.css";
-@import "../atoms/index/input-login-formulario.css";
-@import "../atoms/index/label-login-formulario.css";
-@import "../atoms/index/subtitulo-login-formulario.css";
-@import "../atoms/index/titulo-login.css";
+@import "../atoms/botao-login-formulario.css";
+@import "../atoms/img-login-formulario.css";
+@import "../atoms/input-login-formulario.css";
+@import "../atoms/label-login-formulario.css";
+@import "../atoms/subtitulo-login-formulario.css";
+@import "../atoms/titulo-login.css";
+
+
+@import "../molecules/menu.css";
+
+@import "../molecules/aba.css";
+
+@import "../molecules/avisos.css";
+@import "../molecules/dados.css";

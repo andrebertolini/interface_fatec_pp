@@ -1,0 +1,20 @@
+.aba {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;   
+    border-radius: 18px;    
+    margin: 20px;
+        
+}
+
+.aba h3 {
+    text-align: center;
+}
+
+.aba ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 0px;
+    line-height: 30px;
+    text-align: center;
+}

@@ -4,30 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style/templates/index.css">
+
+    <script type="text/javascript" src="script.js"></script>
+
     <title>Login</title>
 </head>
 <body class="plano_de_fundo">
     <nav class="container">
         <header class="header">
-            <img src="./public/img/logosiga.png" alt="Logo do SIGA">
+            <a href="index.html"><img src="./public/img/logosiga.png" alt="Logo do SIGA"></a>                       
         </header>
         <main class="main">
-            <div class="login">
+            <div id="login" class="login">
                 <h1 class="login__titulo">Login:</h1>
                 <form action="" class="login__formulario">
                     <label for="" class="login__formulario__label">Nome:</label>
                     <input type="text" class="login__formulario__input">
                     <label for="" class="login__formulario__label">Senha:</label>
                     <input type="text" class="login__formulario__input">
-                    <a class="login__formulario__subtitulo" href="">Esqueceu a senha?</a> 
-                    <button class="login__formulario__botao">Entrar</button>                                      
-                </form> 
+                    <a class="login__formulario__subtitulo" href="">Esqueceu a senha?</a>                                                           
+                </form>
+                <button class="login__formulario__botao" onclick="menu()">Entrar</button>
                 <img class="login__formulario__img" src="./public/img/Sem título.png" alt="Brasão Centro Paulo Souza">                                  
-            </div>                      
+            </div>
+
+            <div id="avisos" class="avisos" style="display: none;">
+                <section>
+                    <h1>Avisos</h1>
+                    <h2>COMUNICADO</h2>
+                    <p>A Direção da Fatec de Presidente Prudente vem, por meio deste, informá-los que, 
+                        conforme Comunicado -Coronavírus  6, a Unidade entra em Recesso escolar a partir do dia 23/03/20 até 21/04/20,
+                        antecipando o recesso de abril, julho e outubro previsto no calendário.</p>
+                    <p>PORTANTO SERÁ RECESSO, NÃO TEREMOS ATIVIDADES PEDAGÓGICAS DURANTE ESSE PERÍODO. </p>
+                    <p>A Direção conta com a compreensão e colaboração de todos.</p>
+                    <p>Atenciosamente,</p>
+                    <h3>RENILDA TERESINHA MONTEIRO</h3>
+                </section>  
+            </div>
+
+            <div id="dados" class="dados" style="display: none;">
+                <div>
+                    <img src="./public/img/foto.png" alt="" style="width: 74px;"> 
+                </div>                                         
+            </div>
+
+            <div id="menu" class="menu" style="display: none;">
+                <div id="divMatricula" class="aba">
+                    <h3>Matrícula</h3>
+                    <ul id="matricula">
+                        <li>a</li>
+                        <li>b</li>
+                        <li>b</li>
+                    </ul>
+                </div>
+                <div class="aba">
+                    <h3>Consultas</h3>
+                    <ul id="consultas">
+                        <li>Histórico</li>
+                        <li>Horário</li>
+                        <li>Notas</li>
+                        <li>Faltas</li>
+                    </ul>
+                </div>  
+                <div class="aba">
+                    <h3>Agenda</h3>
+                    <ul id="agenda">
+                        <li>Calendário de Provas</li>                        
+                    </ul>
+                </div>  
+                <div id="matricula" class="aba">
+                    <h3>Solicitações</h3>
+                    <ul id="hh">
+                        <li>Revisão de Nota/Falta/Exame Geral</li>
+                        <li>Solicitação de Documentos</li>
+                    </ul>
+                </div>  
+                <div id="matricula" class="aba">
+                    <h3>Plano de Ensino</h3>
+                    <ul id="hh">
+                        <li>Empreendedorismo</li>
+                        <li>Engenharia de Software I</li>
+                        <li>Interação Humano Computador</li>
+                        <li>Sistemas de Informação</li>
+                        <li>Comunicação e Expressão</li>
+                    </ul>
+                </div>  
+                <div id="matricula" class="aba">
+                    <h3></h3>                    
+                    </ul>
+                </div>                                                 
+            </div>
         </main>
         <footer class="footer">
             <h3 class="footer__subtitulo">Desenvolvido por: André Bertolini</h3>            
         </footer>
-    </nav>    
+    </nav>         
 </body>
 </html>
