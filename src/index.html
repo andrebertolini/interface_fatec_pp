@@ -44,56 +44,131 @@
 
             <div id="dados" class="dados" style="display: none;">
                 <div>
-                    <img src="./public/img/foto.png" alt="" style="width: 74px;"> 
+                    <img src="./public/img/foto.png" alt="" style="width: 80px;"> 
+                </div>
+                <div>
+                    <table>
+                        <h3>André Luiz Bertolini Ferreira Rosa   |   RA: 1570481923004   |   Ciclo:	4 </h3>
+                        <tr class="sub">
+                            <td>Dados</td>
+                            <td>Rendimento no Curso</td>
+                            <td>Prazo de Integralização</td>
+                        </tr>
+                        <tr class="ex">
+                            <td><b>E-mail:</b> andre.rosa17@fatec.sp.gov.br</td>
+                            <td><b>PP:</b></td>
+                            <td><b>Cursado:</b></td>
+                        </tr>
+                        <tr class="ex">
+                            <td><b>CPF:</b> 000.000.000-00</td>
+                            <td><b>PR:</b></td>
+                            <td><b>Máximo:</b></td>
+                        </tr>
+                        <tr class="ex">
+                            <td><b>Data de nascimento:</b> 00/00/0000</td>
+                            <td><b>Maior PR:</b></td>
+                            <td><b>altam:</b></td>
+                        </tr>
+                    </table>
                 </div>                                         
             </div>
 
             <div id="menu" class="menu" style="display: none;">
-                <div id="divMatricula" class="aba">
-                    <h3>Matrícula</h3>
-                    <ul id="matricula">
-                        <li>a</li>
-                        <li>b</li>
-                        <li>b</li>
-                    </ul>
-                </div>
+                <div id="divMatricula" class="matricula">
+                    <h3 id="matricula">Matrícula</h3>
+                    <h3><a href="#agenda" onclick="agenda()">Agenda</a></h3>
+                    <h3>Biblioteca</h3>
+                    <h3>Troca de Senha</h3>
+                                            
+                </div>              
                 <div class="aba">
                     <h3>Consultas</h3>
                     <ul id="consultas">
-                        <li>Histórico</li>
-                        <li>Horário</li>
-                        <li>Notas</li>
-                        <li>Faltas</li>
+                        <li><a href="#con" onclick="con()">Faltas</a></li>
+                        <li><a href="#historico" onclick="historico()">Histórico</a></li>
+                        <li><a href="#horario" onclick="horario()">Horário</a></li>
+                        <li><a href="#con" onclick="con()">Notas</a></li>                       
                     </ul>
-                </div>  
-                <div class="aba">
-                    <h3>Agenda</h3>
-                    <ul id="agenda">
-                        <li>Calendário de Provas</li>                        
-                    </ul>
-                </div>  
+                </div>                  
                 <div id="matricula" class="aba">
                     <h3>Solicitações</h3>
-                    <ul id="hh">
+                    <ul id="solicitacoes">
                         <li>Revisão de Nota/Falta/Exame Geral</li>
                         <li>Solicitação de Documentos</li>
                     </ul>
                 </div>  
-                <div id="matricula" class="aba">
+                <div id="ensino" class="aba">
                     <h3>Plano de Ensino</h3>
-                    <ul id="hh">
-                        <li>Empreendedorismo</li>
-                        <li>Engenharia de Software I</li>
-                        <li>Interação Humano Computador</li>
-                        <li>Sistemas de Informação</li>
-                        <li>Comunicação e Expressão</li>
-                    </ul>
-                </div>  
-                <div id="matricula" class="aba">
-                    <h3></h3>                    
-                    </ul>
-                </div>                                                 
+                    <table>
+                        <tr>
+                            <td>
+                                <ul id="hh">
+                                    <li>Comunicação e Expressão</li> 
+                                    <li>Empreendedorismo</li>
+                                    <li>Engenharia de Software I</li>
+                                                           
+                                </ul>
+                            </td>
+                            <td>
+                                <ul id="hh"> 
+                                    <li><a href="#ihc" onclick="ihc()">Interação Humano Computador</a></li>                        
+                                    <li>Sistemas de Informação</li>                                                                              
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>                                                            
             </div>
+            <div class="menu" id="agenda" style="display: none;">
+                <h3>Agenda</h3>
+                <title>Calendario</title>
+            </head>
+            <body>
+            <table style="font-size: 30px;">
+            <tr></tr><th colspan="4">Maio</th><th colspan="3">2020</th></tr>
+            <tr><th>DOM</th><th>SEG</th><th>TER</th><th>QUA</th><th>QUI</th><th>SEX</th><th>SAB</th></tr>
+            <tr"><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td>01</td><td>02</td></tr>
+            <tr"><td>03</td><td>04</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td></tr>
+            <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+            <tr"><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+            <tr"><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td></tr>
+            <tr><td>31</td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td></tr>
+            </table>
+            </div>
+
+            <div class="menu" id="ihc" style="display: none;">
+                <h3>Interação Humano Computador</h3>
+                <nav> 
+                    <ul>
+                        <li><a href="">Apresentação</a></li>
+                        <li><a href="">Material</a></li>
+                        <li><a href="">Bibliografia</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="menu" id="con" style="display: none;">
+                <h3>Consultas</h3>
+                <table style="text-align: center;">  
+                    <tr style="font-weight: bold; font-size: 20px;"><td>Disciplina</td><td>P1</td><td>P2</td><td>P3</td><td>Média Final</td><td>Frequencia(%)</td></td></tr>
+                    <tr><td style="text-align: left; font-weight: bold;">Comunicação e Expressão</td><td>00</td><td>00</td><td>00</td><td>00</td><td>00</td></tr>
+                    <tr><td style="text-align: left; font-weight: bold;">Empreendedorismo</td><td>00</td><td>00</td><td>00</td><td>00</td><td>00</td></tr>
+                    <tr><td style="text-align: left; font-weight: bold;">Engenharia de Software I</td><td>00</td><td>00</td><td>00</td><td>00</td><td>00</td></tr>
+                    <tr><td style="text-align: left; font-weight: bold;">Interação Humano Computador</td><td>00</td><td>00</td><td>00</td><td>00</td><td>00</td></tr>
+                    <tr><td style="text-align: left; font-weight: bold;">Sistemas de Informação</td><td>00</td><td>00</td><td>00</td><td>00</td><td>00</td></tr>                
+                </table>
+           </div>
+
+           <div class="menu" id="historico" style="display: none;">
+            <h3>Histórico</h3>
+        </div>
+
+            <div class="menu" id="horario" style="display: none;">
+                <h3>Horário</h3>
+            </div>
+           
+
         </main>
         <footer class="footer">
             <h3 class="footer__subtitulo">Desenvolvido por: André Bertolini</h3>            
@@ -101,3 +176,5 @@
     </nav>         
 </body>
 </html>
+
+ 

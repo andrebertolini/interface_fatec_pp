@@ -9,3 +9,32 @@
     justify-content: center;
     background-color: white;         
 }
+
+
+#con td, tr{
+    padding: 10px;
+    border: 2px solid black;    
+    
+}
+
+#con {    
+    flex-direction: column;
+}
+
+#con h3 {
+    margin-top: -20px;
+    font-size: 40px;
+}
+
+#ihc {
+    flex-direction: column;
+}
+
+#ihc li {
+    display: inline;
+}
+
+#ihc h3 {
+    margin-top: -20px;
+    font-size: 40px;
+}

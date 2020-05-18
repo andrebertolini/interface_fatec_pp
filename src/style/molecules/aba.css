@@ -1,14 +1,17 @@
 .aba {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border: 2px solid black;   
     border-radius: 18px;    
-    margin: 20px;
-        
+    margin: 10px;        
 }
 
 .aba h3 {
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 24px;
+    
 }
 
 .aba ul {
@@ -16,5 +19,35 @@
     margin: 15px;
     padding: 0px;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
 }
+
+.aba li {
+   
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#ensino {
+    width: 710px;
+}
+
+#ensino table {
+    margin: auto;
+
+}
+
+#divMatricula h3 {
+    border: 2px solid black;   
+    border-radius: 18px;
+    width: 220px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 8px;         
+}
+
+
+
+

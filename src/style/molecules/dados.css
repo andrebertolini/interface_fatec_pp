@@ -1,8 +1,32 @@
 .dados {
     width: 800px;
-    height: 100px;
+    height: 110px;
     border: 2px solid black;
     position: absolute;
     top: 5px;
     background-color: white; 
 }
+
+.dados h3 {
+    font-size: 18px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.dados td {
+    padding-left: 10px;
+    
+}
+
+.sub {
+    font-size: 16px;
+    font-weight: bold;
+    
+} 
+
+.ex td {
+    font-size: 14px;
+    
+}
+
