@@ -2,6 +2,7 @@ function menu() {
     document.getElementById("login").style.display = "none";
     document.getElementById("menu").style.display = "flex";
     document.getElementById("avisos").style.display = "flex";
+    document.getElementById("noticias").style.display = "flex";
     document.getElementById("dados").style.display = "flex";
     now = new Date;    
     mes = now.getMonth()+1;     
@@ -42,6 +43,19 @@ function horario() {
     document.getElementById("horario").style.display = "flex";
 
 }
+
+function material() {
+    document.getElementById("some").style.display = "none";
+    document.getElementById("material").style.display = "flex";
+
+}
+
+function bibliografia() {
+    document.getElementById("some").style.display = "none";
+    document.getElementById("bibliografia").style.display = "flex";
+
+}
+
 
 
 

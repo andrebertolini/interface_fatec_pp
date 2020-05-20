@@ -21,6 +21,61 @@
     flex-direction: column;
 }
 
+#agenda {
+    flex-direction: column;
+}
+
+#agenda tr td {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    padding: 0px;
+}
+
+#noticias {
+    flex-direction: column;    
+}
+
+#noticias p {
+    margin: 0px; 
+    padding: 4px;
+    text-align: left;            
+}
+
+#noticias section {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+#noticias h6 {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+#passa_l {
+    margin-top: 15px;   
+}
+
+#noticias h1 {
+    margin-top: 5px;    
+    text-align: center;
+    padding-right: 28px;
+    font-size: 20px;
+}
+
+#noticias img {
+    float: left;
+    margin-right: 8px;
+}
+
+
 #con h3 {
     margin-top: -20px;
     font-size: 40px;
@@ -30,11 +85,101 @@
     flex-direction: column;
 }
 
+#material {
+    flex-direction: column;
+}
+
+#bibliografia {
+    flex-direction: column;
+}
+
 #ihc li {
-    display: inline;
+    display: inline;    
+}
+
+#ihc h4, p, table {
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+
+}
+
+#ihc tr, td {
+    text-align: left;
+}
+
+#ihc nav{
+    position: fixed;
+    top: 200px;
+    left: 380px;
+}
+
+#ihc section {
+    padding-top: 50px;
 }
 
 #ihc h3 {
+    margin: 0px;
+    font-size: 40px;
+}
+
+#agenda h6 {
+    margin: 0px;
+    margin-bottom: 8px;
+    padding: 0px;
+    font-size: 18px;
+    
+}
+
+#agenda section {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#agenda table {
+    margin-bottom: 0px;
+}
+
+#agenda h2 {
+    margin-top: -20px;
+    font-size: 30px;
+}
+
+#agenda td{
+    padding: 8px;
+    border: 2px solid black; 
+    text-align: right;       
+}
+
+#historico {
+    flex-direction: column; 
+}
+
+#historico h3 {
     margin-top: -20px;
     font-size: 40px;
 }
+
+#historico td, tr{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;    
+    
+}
+
+#horario {
+    flex-direction: column; 
+}
+
+#horario h3 {
+    margin-top: -20px;
+    font-size: 40px;
+}
+
+#horario td, tr{
+    border: 2px solid black; 
+    text-align: center;    
+    padding: 2px;   
+    
+}
+

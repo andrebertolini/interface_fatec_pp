@@ -41,6 +41,32 @@
                     <h3>RENILDA TERESINHA MONTEIRO</h3>
                 </section>  
             </div>
+            <div id="noticias" class="noticias" style="display: none;">
+                <section>
+                <img id="passa_l" src="./public/img/left.png" alt="">
+                <h1>Últimas Notícias</h1>
+                <img src="./public/img/right.png" alt="" style="float: right; margin-top: -30px; margin-right: 0px;">
+                
+                </section>          
+                <section>                                                           
+                    <img src="./public/img/not1.png" alt="">
+                    <p>ATENÇÃO!!!</p> 
+                    <p>MANUAL DE ORIENTAÇÕES DE AULAS ONLINE</p>
+                    <h6><a href="">Leia mais ></a></h6>
+                </section>
+                <section>                                                        
+                    <img src="./public/img/not2.png" alt="">
+                    <p>Processos seletivos das Fatecs terão as datas alteradas</p> 
+                    <p>Fatec Prudente</p>
+                    <h6><a href="">Leia mais ></a></h6>
+                </section>  
+                <section>                                                        
+                    <img src="./public/img/not3.png" alt="">
+                    <p>Diretora da Fatec Prudente realiza visita ao décimo oitavo Batalhão da Polícia Militar</p> 
+                    <p>Fatec Prudente</p>
+                    <h6><a href="">Leia mais ></a></h6>
+                </section>    
+            </div>
 
             <div id="dados" class="dados" style="display: none;">
                 <div>
@@ -77,8 +103,8 @@
                 <div id="divMatricula" class="matricula">
                     <h3 id="matricula">Matrícula</h3>
                     <h3><a href="#agenda" onclick="agenda()">Agenda</a></h3>
-                    <h3>Biblioteca</h3>
-                    <h3>Troca de Senha</h3>
+                    <h3><a href="">Biblioteca</a></h3>
+                    <h3><a href="">Troca de Senha</a></h3>
                                             
                 </div>              
                 <div class="aba">
@@ -93,8 +119,8 @@
                 <div id="matricula" class="aba">
                     <h3>Solicitações</h3>
                     <ul id="solicitacoes">
-                        <li>Revisão de Nota/Falta/Exame Geral</li>
-                        <li>Solicitação de Documentos</li>
+                        <li><a href="">Revisão de Nota/Falta/Exame Geral</a></li>
+                        <li><a href="">Solicitação de Documentos</a></li>
                     </ul>
                 </div>  
                 <div id="ensino" class="aba">
@@ -103,16 +129,15 @@
                         <tr>
                             <td>
                                 <ul id="hh">
-                                    <li>Comunicação e Expressão</li> 
-                                    <li>Empreendedorismo</li>
-                                    <li>Engenharia de Software I</li>
-                                                           
+                                    <li><a href="">Comunicação e Expressão</a></li> 
+                                    <li><a href="">Empreendedorismo</a></li>
+                                    <li><a href="">Engenharia de Software I</a></li>                                                           
                                 </ul>
                             </td>
                             <td>
                                 <ul id="hh"> 
                                     <li><a href="#ihc" onclick="ihc()">Interação Humano Computador</a></li>                        
-                                    <li>Sistemas de Informação</li>                                                                              
+                                    <li><a href="">Sistemas de Informação</a></li>                                                                              
                                 </ul>
                             </td>
                         </tr>
@@ -120,31 +145,71 @@
                 </div>                                                            
             </div>
             <div class="menu" id="agenda" style="display: none;">
-                <h3>Agenda</h3>
-                <title>Calendario</title>
-            </head>
-            <body>
-            <table style="font-size: 30px;">
-            <tr></tr><th colspan="4">Maio</th><th colspan="3">2020</th></tr>
-            <tr><th>DOM</th><th>SEG</th><th>TER</th><th>QUA</th><th>QUI</th><th>SEX</th><th>SAB</th></tr>
-            <tr"><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td>01</td><td>02</td></tr>
-            <tr"><td>03</td><td>04</td><td>05</td><td>06</td><td>07</td><td>08</td><td>09</td></tr>
-            <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
-            <tr"><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
-            <tr"><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td></tr>
-            <tr><td>31</td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td></tr>
-            </table>
+                <section>
+                <img src="./public/img/left.png" alt="" style=" position: absolute; margin-top: 15px">                
+                <h2>Calendrário de Provas</h2> 
+                <img src="./public/img/right.png" alt="" style="float: right; margin-top: -23px; margin-right: 0px;">  
+            </section>               
+                <table>
+                    <h6>Maio/2020</h6>                     
+                    <tr><th>DOM</th><th>SEG</th><th>TER</th><th>QUA</th><th>QUI</th><th>SEX</th><th>SAB</th></tr>
+                    <tr><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td>  1</td> <td> 2</td></tr>
+                    <tr><td> 3</td><td> 4</td><td> 5</td><td> 6</td><td> 7</td><td> 8</td><td> 9</td></tr>
+                    <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15<br>IHC00</td><td>16</td></tr>
+                    <tr><td>17</td><td>18<br>IHC00</td><td>19<br>IHC00</td><td>20<br>IHC00</td><td>21</td><td>22</td><td>23</td></tr>
+                    <tr><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td></tr>
+                    <tr><td>31</td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td></tr>
+                    </table>
+                                                          
             </div>
 
             <div class="menu" id="ihc" style="display: none;">
                 <h3>Interação Humano Computador</h3>
                 <nav> 
                     <ul>
-                        <li><a href="">Apresentação</a></li>
-                        <li><a href="">Material</a></li>
-                        <li><a href="">Bibliografia</a></li>
+                        <li><a href="">Apresentação</a></li>                       
+                        <li><a href="#material" onclick="material()">Material</a></li>
+                        <li><a href="#bibliografia" onclick="bibliografia()">Bibliografia</a></li>
                     </ul>
                 </nav>
+                <section id="some">
+                    <h4>Titulo</h4>
+                    <h4>Apresentação</h4>
+                    <h4>Area</h4>
+                    <h4>Ementa</h4>
+                    <p>Fatores Humanos em Sistemas Computacionais, Fundamentos Teóricos em Interação Humano-Computador,
+                         Usabilidade, Comunicabilidade, Acessibilidade,  Design de Interação, Processo de Design de Interação, 
+                         Projeto, Construção e avaliação de interfaces.</p>
+                    <h4>Objetivo</h4>
+                    <p>Aplicar os conceitos de usabilidade de software.</p>
+                    <h4>Cargas</h4>
+                    <table>
+                        <tr><td>Semanais</td><td>2</td></tr>
+                        <tr><td>Teóricas</td><td>1</td></tr>
+                        <tr><td>Práticas</td><td>1</td></tr>
+                        <tr><td>Total</td><td>40</td></tr>
+                    </table>
+                </section>
+
+                <section id="material" style="display: none;">
+                    <h4>material de estudo</h4>
+                    <p>A seguir é apresentada a lista dos materiais disponibilizados para download pelos estudantes da disciplina.</p>
+                    <h4>Conceitos Fundamentais</h4>
+                    <h4>Projeto 1 Bimestre - Parte 1</h4>
+                    <h4>Projeto 1 Bimestre - Parte 2</h4>
+                    <h4>Atividade Repositiva</h4>
+                </section>
+
+                <section id="bibliografia" style="display: none;">
+                    <h4>bibliografia</h4>
+                    <hr>
+                    <p>AGNER, L. Ergodesign e Arquitetura de Informação: trabalhando com o usuario. Quartet, 2009.</p>
+                    <hr>
+                    <p>ORTH, A.I. Interface Homem-Máquina. Porto Alegre: AIO, 2005.</p>
+                    <hr>
+                    <p>PREECE, J.; Rogers, Y.; Sharp, H. Design de Interação: Além da Interação Homem-Computador. Bookman, 2005</p>
+                </section>
+
 
             </div>
 
@@ -162,12 +227,39 @@
 
            <div class="menu" id="historico" style="display: none;">
             <h3>Histórico</h3>
-        </div>
+            <table>
+                <tr style="font-weight: bold;"><td>Sigla</td><td>Disciplina</td><td>Periodo</td><td>Aprovado</td><td>Media Final</td><td>Frequencia(%)</td><td>Observação</td></tr>
+                <tr><td>LIN500</td><td>Inglês V</td><td>20192</td><td>  </td><td>00.00</td><td>00.00</td><td>Dispensado por Proficiência</td></tr>
+                <tr><td>LIN500</td><td>Inglês V</td><td>20192</td><td>  </td><td>00.00</td><td>00.00</td><td>Dispensado por Proficiência</td></tr>
+                <tr><td>LIN500</td><td>Inglês V</td><td>20192</td><td>  </td><td>00.00</td><td>00.00</td><td>Dispensado por Proficiência</td></tr>
+                <tr><td>LIN500</td><td>Inglês V</td><td>20192</td><td>  </td><td>00.00</td><td>00.00</td><td>Dispensado por Proficiência</td></tr>
+                <tr><td>LIN500</td><td>Inglês V</td><td>20192</td><td>  </td><td>00.00</td><td>00.00</td><td>Dispensado por Proficiência</td></tr>
+                <tr><td>LIN500</td><td>Inglês V</td><td>20192</td><td>  </td><td>00.00</td><td>00.00</td><td>Dispensado por Proficiência</td></tr>
+                <tr><td>LIN500</td><td>Inglês V</td><td>20192</td><td>  </td><td>00.00</td><td>00.00</td><td>Dispensado por Proficiência</td></tr>
+                
+            </table>
+            </div>    
 
             <div class="menu" id="horario" style="display: none;">
                 <h3>Horário</h3>
-            </div>
-           
+                <table style="margin-bottom: 30px; font-size: 24px;">
+                    <tr style="font-weight: bold;"><td style="border: none;">  </td><td>SEG</td><td>TER</td><td>QUA</td><td>QUI</td><td>SEX</td><td>SAB</td></tr>
+                    <tr><td>19:00-19:50</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td></tr>
+                    <tr><td>19:00-19:50</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td></tr> 
+                    <tr><td>19:00-19:50</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td></tr> 
+                    <tr><td>19:00-19:50</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td><td>IES100</td></tr>                     
+                </table>
+
+                <table>
+                    <tr style="font-weight: bold;"><td>Sigla</td><td>Disciplina</td><td>Professor</td></tr>
+                    <tr><td>IHC001</td><td>Interação Humano Computador</td><td>ANA CAROLINA NICOLOSI DA R. GRACIOSO</td></tr>
+                    <tr><td>IHC001</td><td>Interação Humano Computador</td><td>ANA CAROLINA NICOLOSI DA R. GRACIOSO</td></tr>
+                    <tr><td>IHC001</td><td>Interação Humano Computador</td><td>ANA CAROLINA NICOLOSI DA R. GRACIOSO</td></tr>
+                    <tr><td>IHC001</td><td>Interação Humano Computador</td><td>ANA CAROLINA NICOLOSI DA R. GRACIOSO</td></tr>
+                    <tr><td>IHC001</td><td>Interação Humano Computador</td><td>ANA CAROLINA NICOLOSI DA R. GRACIOSO</td></tr>
+                    
+                </table>
+            </div>          
 
         </main>
         <footer class="footer">
