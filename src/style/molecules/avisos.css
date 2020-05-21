@@ -3,7 +3,7 @@
     height: 500px;
     border: 2px solid black;
     border-radius: 18px;
-    background-color: #B20000;       
+    background-color: white;       
     position: absolute;   
     left: 40px;          
 }
@@ -30,7 +30,7 @@
 .avisos section h3 {
     text-align: left;
     font-size: 15px;
-    color: gray;
+    color: black;
 }
 
 
